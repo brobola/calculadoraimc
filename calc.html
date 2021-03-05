@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<link type="text/css" rel="stylesheet" href="calc.css">
+<script src= imc.js></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1> Calculadora de IMC</h1>
+        <div class="form">
+            <label for="">Insertar peso en KG</label><br>
+            <input type="text" id="Peso" placeholder="Ej. 65.3"><br><br>
+            <label for="">Insertar altura en metros</label><br>
+            <input type="text" id="Alt" placeholder="Ej. 1.75"><br>
+            <input type="submit" value="Calcular" class="calcular" onclick="calcular()"><br>
+        </div><br>
+
+    <div class = "imcText">Tu IMC es:</div>
+        <p id = "resultado"></p>
+        <div class="clasificacion">
+            <div id = "bajodepeso">Bajo de peso</div>
+            <div id = "pesosaludable">Peso saludable</div>
+            <div id = "Sobrepeso">Sobrepeso</div>
+            <div id = "Obesidaddegrado1">Obesidad de grado 1</div>
+            <div id = "Obesidaddegrado2">Obesidad de grado 2</div>
+            <div id = "Obesidadmorbida">Obesidad mórbida</div>
+        </div>
+    </div>    
+</body>
+</html>
